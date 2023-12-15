@@ -1,0 +1,25 @@
+{
+  "name": "discordjsv14",
+  "version": "1.0.0",
+  "description": "discord bot handler",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrGrootx/discord-bot-handler.git"
+  },
+  "author": "mrgrootx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrGrootx/discord-bot-handler/issues"
+  },
+  "homepage": "https://github.com/MrGrootx/discord-bot-handler#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "mongoose": "^6.0.12",
+    "nodemon": "^3.0.2"
+  }
+}
