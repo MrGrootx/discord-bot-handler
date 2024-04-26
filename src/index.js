@@ -27,8 +27,7 @@ const {
   ActivityType,
   ChatInputCommandInteraction,
 } = require(`discord.js`);
-const fs = require("fs");
-const process = require("node:process");
+
 const client = new Client({
   intents: [
     Object.keys(GatewayIntentBits),
